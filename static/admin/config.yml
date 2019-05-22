@@ -1,6 +1,6 @@
 backend:
   name: github # Or gitlab
-  repo: movider/movider-blog # Your username and repository
+  repo: thaibulksms/thaibulksms-blog # Your username and repository
   branch: master # Branch to use
   base_url: https://b54i9wbacg.execute-api.ap-southeast-1.amazonaws.com # The base URL for your Firebase Function
   auth_endpoint: /prod/auth # The path to the OAuth endpoint of the function
