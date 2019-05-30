@@ -16,12 +16,18 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
+        // const { author, social } = data.site.siteMetadata
         return (
           <div
             style={{
               display: `flex`,
               marginBottom: rhythm(2.5),
+              borderBottom: "1px solid rgb(225, 225, 225)",
+              // borderTop: "1px solid rgb(225, 225, 225)",
+              paddingBottom: "8px",
+              paddingTop: "80px",
+              // marginTop: "55px"
             }}
           >
             <Image
@@ -38,13 +44,17 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong> ผู้นำด้าน SMS ครบวงจร, ช่องทางการสื่อสารธุรกิจคุณ ที่เข้าถึงลูกค้าได้ไวที่สุด.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              {/* <a href={`https://twitter.com/${social.twitter}`}>
+                ThaiBulkSMS.com
+              </a> */}
+              <a href={`https://www.thaibulksms.com`}>
+                ThaiBulkSMS.com
               </a>
+
             </p>
+            <br />
           </div>
         )
       }}
@@ -54,22 +64,22 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
+              avatar: file(absolutePath: {regex: "/profile-pic.jpg/" }) {
+              childImageSharp {
+            fixed(width: 50, height: 50) {
+              ...GatsbyImageSharpFixed
+            }
+            }
+          }
     site {
-      siteMetadata {
-        author
+              siteMetadata {
+            author
         social {
-          twitter
+              twitter
+            }
+            }
+          }
         }
-      }
-    }
-  }
-`
+      `
 
 export default Bio
