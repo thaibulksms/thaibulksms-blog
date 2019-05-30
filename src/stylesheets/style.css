@@ -1,0 +1,47 @@
+body{
+    font-size: 18px;
+}
+.hrLogo {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background:rgb(225, 225, 225);
+}
+.picCover{
+    text-align: center;
+}
+.post_detail.post_date {
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-bottom: 18px;
+}
+.post_info_date {
+    width: 50%;
+    text-align: center;
+    font-family: 'Lustria', 'Georgia', Arial,Verdana,sans-serif;
+    font-style: italic;
+    color: #08c;
+    position: relative;
+    display: block;
+    left: 24%;
+}
+.post_info_date.details{
+    left: 0%;
+}
+.post_info_date span {
+    display: inline-block;
+    padding: 0 1.2em;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+.post_info_date:before {
+    content: "";
+    border-bottom: 1px solid #08c;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
