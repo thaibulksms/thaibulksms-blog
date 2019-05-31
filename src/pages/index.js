@@ -35,17 +35,17 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h2>
-              {/* <small>{node.frontmatter.date}</small> */}
 
               <div className="post_detail post_date">
                 <span className="post_info_date">
                   <span>{node.frontmatter.date}</span>
                 </span>
               </div>
-              <div className="picCover">
-
-                <img src={node.frontmatter.thumbnail} alt="content" />
-              </div>
+              <Link to={node.fields.slug}>
+                <div className="picCover">
+                  <img src={node.frontmatter.thumbnail} alt="content" />
+                </div>
+              </Link>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
