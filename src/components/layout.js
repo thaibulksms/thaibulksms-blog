@@ -23,10 +23,10 @@ class Layout extends React.Component {
           borderBottom: "1px solid #e1e1e1"
         }}
       >
-        <a href="https://www.thaibulksms.com" style={{
+        <a href="https://www.thaibulksms.com/blog/" style={{
           boxShadow: "none",
           display: "block"
-        }}><img src="/img/logo.webp" alt="logo" /></a>
+        }}><img src="images/logo.webp" alt="logo" /></a>
 
         <hr className="hrLogo" />
         {/* {title} */}
