@@ -49,7 +49,7 @@ function Bio() {
               {/* <a href={`https://twitter.com/${social.twitter}`}>
                 ThaiBulkSMS.com
               </a> */}
-              <a href={`https://www.thaibulksms.com`}>
+              <a href={`https://www.thaibulksms.com`} style={{ boxShadow: "none" }}>
                 ThaiBulkSMS.com
               </a>
 

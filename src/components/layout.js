@@ -19,14 +19,13 @@ class Layout extends React.Component {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
-          textAlign: "center",
-          borderBottom: "1px solid #e1e1e1"
+          textAlign: "center"
         }}
       >
-        <a href="https://www.thaibulksms.com" style={{
+        <a href="https://www.thaibulksms.com/blog/" style={{
           boxShadow: "none",
           display: "block"
-        }}><img src="/img/logo.webp" alt="logo" /></a>
+        }}><img src="/blog/images/logo.webp" alt="logo" /></a>
 
         <hr className="hrLogo" />
         {/* {title} */}
@@ -44,7 +43,11 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, ThaibulkSMS
+          © {new Date().getFullYear()}, <a href={`https://www.thaibulksms.com`} style={{
+            boxShadow: "none"
+          }}>
+            ThaibulkSMS.com
+              </a>
           {` `}
         </footer>
       </div>
