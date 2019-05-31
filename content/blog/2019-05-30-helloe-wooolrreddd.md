@@ -1,9 +1,7 @@
 ---
-title: helloe wooolrreddd
-thumbnail: /blog/img/bug-icon-image-vector-15020094.jpg
+title: 'Hello, World!'
+thumbnail: /blog/img/contact-us-banner.jpg
 date: 2019-05-30T12:12:54.933Z
-description: sd
+description: The good things will happen here soon.
 ---
-vvv
-
-![](/blog/img/c0fdbe5817b2764262520fd1905e1f75.jpg)
+Please look forward to hearing from us.
