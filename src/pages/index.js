@@ -19,15 +19,8 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug} style={{
-              borderBottom: "1px solid rgb(225, 225, 225)"
-            }}>
-              <h2
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                  textAlign: "center"
-                }}
-              >
+            <div key={node.fields.slug} className="cardStyle">
+              <h2>
                 <Link style={{
                   boxShadow: `none`,
                   color: "#403e3d"

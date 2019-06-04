@@ -20,59 +20,61 @@ class BlogPostTemplate extends React.Component {
           title={"ThaibulkSMS - " + post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h2 style={{
-          marginBottom: "10px",
-        }}>{post.frontmatter.title}</h2>
-        {/* <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p> */}
+        <div className="wrapper-blogdetail">
+          <h2 style={{
+            marginBottom: "10px",
+          }}>{post.frontmatter.title}</h2>
+          {/* <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p> */}
 
-        <div className="post_detail post_date">
-          <span className="post_info_date details">
-            <span>{post.frontmatter.date}</span>
-          </span>
+          <div className="post_detail post_date">
+            <span className="post_info_date details">
+              <span>{post.frontmatter.date}</span>
+            </span>
+          </div>
+
+
+          <div dangerouslySetInnerHTML={{ __html: post.html }} className="text-blogpage"/>
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+          <Bio />
+
+          <ul
+            style={{
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
+            }}
+          >
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
         </div>
-
-
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
-
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
       </Layout>
     )
   }

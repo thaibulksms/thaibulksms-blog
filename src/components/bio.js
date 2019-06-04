@@ -43,7 +43,7 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <p>
+            <p className="text-written">
               Written by <strong>{author}</strong> ผู้นำด้าน SMS ครบวงจร, ช่องทางการสื่อสารธุรกิจคุณ ที่เข้าถึงลูกค้าได้ไวที่สุด.
               {` `}
               {/* <a href={`https://twitter.com/${social.twitter}`}>

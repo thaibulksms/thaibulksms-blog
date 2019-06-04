@@ -11,7 +11,7 @@ class Layout extends React.Component {
     let header
     // if (location.pathname === rootPath) {
 
-    // } 
+    // }
 
     header = (
       <h1
@@ -32,16 +32,9 @@ class Layout extends React.Component {
       </h1 >
     )
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <div>
         <header>{header}</header>
-        <main>{children}</main>
+        <main className="main-width">{children}</main>
         <footer>
           © {new Date().getFullYear()}, <a href={`https://www.thaibulksms.com`} style={{
             boxShadow: "none"
