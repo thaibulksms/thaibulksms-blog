@@ -1,6 +1,6 @@
 ---
 title: 5 เทคนิค เขียนชื่อ Sender Name ให้ลูกค้าจำขึ้นใจ
-thumbnail: /blog/img/istockphoto-1097799990-612x612.jpg
+thumbnail: /blog/img/thaibulk_190711_0007.jpg
 date: 2019-07-11T01:49:47.840Z
 description: >-
   อนั้นสำคัญไฉน   เวลาที่เราส่ง SMS ให้กับลูกค้า เราต้องอยากให้ลูกค้า
