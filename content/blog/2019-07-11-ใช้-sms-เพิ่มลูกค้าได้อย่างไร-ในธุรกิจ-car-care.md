@@ -1,6 +1,6 @@
 ---
 title: 'ใช้ SMS เพิ่มลูกค้าได้อย่างไร ในธุรกิจ Car Care '
-thumbnail: /blog/img/istockphoto-1097799990-612x612.jpg
+thumbnail: /blog/img/thaibulk_190711_0005_0.jpg
 date: 2019-07-11T01:26:44.534Z
 description: >-
   “ธุรกิจคาร์แคร์” เป็นธุรกิจสุดท้าทาย
