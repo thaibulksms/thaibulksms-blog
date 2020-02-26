@@ -52,15 +52,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "GTM-TSL6XW7",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        pageTransitionDelay: 0,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "thaibulksms.com",
+        // trackingId: "GTM-TSL6XW7",
+        // head: false,
+        // anonymize: true,
+        // respectDNT: true,
+        // pageTransitionDelay: 0,
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+        // cookieDomain: "thaibulksms.com",
       },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TSL6XW7",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" }
+      }
     },
     `gatsby-plugin-feed`,
     {
