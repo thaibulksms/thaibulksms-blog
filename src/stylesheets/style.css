@@ -1,48 +1,92 @@
-body{
-    font-size: 18px;
+body {
+  font-size: 18px;
+  background-color: #f6f8fa;
+  color: #061b33;
 }
+
+header {
+  background-color: #fff;
+  padding-top: 40px;
+  max-width: 100%;
+}
+
 .hrLogo {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    background:rgb(225, 225, 225);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background: rgb(225, 225, 225);
 }
-.picCover{
-    text-align: center;
+
+.picCover {
+  text-align: center;
 }
+
 .post_detail.post_date {
-    float: none;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-bottom: 18px;
-    padding: 0 10%;
+  float: none;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-bottom: 18px;
+  padding: 0 10%;
 }
+
 .post_info_date {
-    /* width: 50%; */
-    text-align: center;
-    font-family: 'Lustria', 'Georgia', Arial,Verdana,sans-serif;
-    font-style: italic;
-    color: #08c;
-    position: relative;
-    display: block;
-    /* left: 24%; */
+  /* width: 50%; */
+  text-align: center;
+  font-family: 'Lustria', 'Georgia', Arial, Verdana, sans-serif;
+  font-style: italic;
+  color: #08c;
+  position: relative;
+  display: block;
+  /* left: 24%; */
 }
-.post_info_date.details{
-    left: 0%;
+
+.post_info_date.details {
+  left: 0%;
 }
+
 .post_info_date span {
-    display: inline-block;
-    padding: 0 1.2em;
-    background: #ffffff;
-    position: relative;
-    z-index: 2;
+  display: inline-block;
+  padding: 0 1.2em;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
 }
+
 .post_info_date:before {
-    content: "";
-    border-bottom: 1px solid #08c;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: 0;
+  content: "";
+  border-bottom: 1px solid #08c;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+.main-width , footer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+footer {
+  margin: 40px auto;
+}
+.cardStyle {
+  padding: 2%;
+  box-shadow: 0px 5px 10px 0px rgba(200,200,200,0.5);
+  margin: 40px 0;
+  background-color: #fff;
+}
+.cardStyle p {
+  padding: 0 50px;
+  color: #7f8995;
+}
+div.wrapper-blogdetail {
+  padding: 20px 40px;
+  background-color: #fff;
+}
+div.text-blogpage p ,p.text-written {
+  color: #7f8995;
+}
+h2 {
+  font-size: 36px;
+  margin: 40px 0;
+  text-align: center;
 }
