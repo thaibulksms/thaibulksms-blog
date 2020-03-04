@@ -1,5 +1,5 @@
 ---
-title: ปิดการขายด้วย Testimonials ทำง่ายๆแต่ผลลัพท์เกินคาด
+title: ปิดการขายด้วย Testimonials ทำง่ายๆแต่ผลลัพธ์เกินคาด
 thumbnail: /blog/img/1_ypau7xtrkzm_ryvpg-m_jq.jpeg
 date: 2020-01-17T07:40:14.050Z
 description: >-
