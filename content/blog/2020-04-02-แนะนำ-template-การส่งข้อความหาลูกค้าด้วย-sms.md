@@ -1,7 +1,7 @@
 ---
 title: แนะนำ Template การส่งข้อความหาลูกค้าด้วย SMS
 thumbnail: /blog/img/woman-enjoying-good-message-phone_158483-9.jpg
-date: 2019-08-05T03:59:00.000Z
+date: 2020-04-09T03:59:00.000Z
 description: >-
   สำหรับทุกท่านที่ยังไม่มีไอเเดียหรือไม่รู้ว่าะเริ่มส่งข้อความหาลูกค้าผ่าน SMS
   แบบไหนดี  ThaiBulkSMS ขอแนะนำการเขียน SMS ในการรูปแบบการส่งโปรโมชั่น
