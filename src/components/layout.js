@@ -36,14 +36,15 @@ class Layout extends React.Component {
         }
       } >
       <
-      img src = "/blog/images/logo.webp"
+      img src = "/blog/images/logo.jpg"
       alt = "logo" / >
       <
       /a>
 
       <
       hr className = "hrLogo" / > {
-        /* {title} */ } <
+        /* {title} */
+      } <
       /h1 >
     )
     return ( <
@@ -67,8 +68,8 @@ class Layout extends React.Component {
         }
       } >
       ThaibulkSMS.com <
-      /a> <
-      /footer> <
+      /a> < /
+      footer > <
       /div>
     )
   }
