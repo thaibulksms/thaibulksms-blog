@@ -1,5 +1,5 @@
 ---
-title: สร้างยอดขายได้ทันเมื่อลูกค้าเดินผ่าน ด้วย LBS -  Location-Based Services
+title: สร้างยอดขายได้ทันที ด้วย SMS Location-Based Services
 thumbnail: /blog/img/11.jpg
 date: 2020-07-07T03:16:20.831Z
 description: >-
